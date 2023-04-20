@@ -1,0 +1,27 @@
+.menu-section{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.menu-section p{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.menu-section h1{
+    margin-bottom: 20px;
+}
+
+.menu-section .items{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}

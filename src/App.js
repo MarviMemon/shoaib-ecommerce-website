@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import ResponsiveAppBar from './components/navbar/Navbar';
+import BasicCard from './components/header/Header';
+import Menu from './components/menu/Menu';
+import InstagramSection from './components/instaSection/InstagramSection';
+import Footer from './components/footer/Footer';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ResponsiveAppBar/>
+      <BasicCard/>
+      <Menu/>
+      <InstagramSection/>
+      <Footer/>
     </div>
   );
 }
